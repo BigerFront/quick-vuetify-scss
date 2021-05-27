@@ -17,14 +17,14 @@
 
 <script>
 import Intro from './PlatformIntro';
-import Logo from '~Assets/eid_icon@2x.png';
+import Logo from '~Assets/faster.png';
 export default {
   name: 'PortalIndex',
   components: { Intro },
   data() {
     return {
       logo: Logo,
-      appTitle: '区块链应用平台',
+      appTitle: 'Quick VVW 平台',
     };
   },
   computed: {},
