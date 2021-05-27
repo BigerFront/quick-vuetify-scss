@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["src/*"],
+      "~Assets/*": ["src/assets/*"],
+      "~Img/*": ["src/assets/img/*"],
+      "~Lib/*": ["src/lib/*"],
+      "~Views/*": ["src/views/*"],
+      "~UI/*": ["src/ui/*"],
+      "~Widgets/*": ["src/ui/widgets/*"]
+    }
+  },
+  "include": ["./src", "ci"]
+}
